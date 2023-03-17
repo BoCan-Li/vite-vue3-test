@@ -7,6 +7,7 @@ import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vite-vue3-test/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
